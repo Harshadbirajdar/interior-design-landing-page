@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+
+body {
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  color: #fff;
+  width: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.list-items {
+  display: flex;
+
+  border-bottom: 2px solid #fff;
+  padding: 10px 40px;
+}
+.list-item {
+  display: inline;
+  color: #fff;
+  font-size: 19px;
+  margin-right: 90px;
+}
+.call-container {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.fa-phone-volume {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.hero-container h1 {
+  font-size: 60px;
+  width: 609px;
+  color: #fff;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.hero-container button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 90px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.hero-container button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.square {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 20px;
+  position: absolute;
+  right: 0px;
+  top: 90px;
+  width: 250px;
+  padding: 10px 20px;
+  height: 135px;
+}
+
+.icon {
+  background-color: #fff;
+  display: inline-block;
+  padding: 6px 33px;
+  border-radius: 30px;
+}
+
+.icon .fa-puzzle-piece {
+  font-size: 29px;
+}
+.box {
+  position: absolute;
+  top: 100px;
+  right: 150px;
+}
+
+.square-content {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  top: 600px;
+}
+
+.box .verticle-line {
+  position: absolute;
+  height: 90px;
+  width: 2px;
+  background-color: #ffffff;
+  top: 155px;
+  right: 80px;
+}
+
+.box .circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  bottom: 0;
+  left: -8px;
+}
+
+.box2 {
+  position: absolute;
+  top: 350px;
+  right: 650px;
+}
+
+.box2 .horizontal-line {
+  position: absolute;
+  width: 90px;
+  height: 3px;
+  right: -90px;
+  background-color: #fff;
+}
+
+.box2 .circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  bottom: 0;
+  top: -9px;
+  right: -20px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    height: 100vh;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .list-item {
+    display: none;
+  }
+  .hero-container h1 {
+    width: auto;
+    font-size: 30px;
+    margin-left: 60px;
+  }
+
+  .hero-container button {
+    padding: 11px 28px;
+    font-size: 13px;
+    margin-left: 60px;
+  }
+  .square {
+    width: 212px;
+    height: 106px;
+  }
+  .square-content {
+    font-size: 14px;
+  }
+  .box {
+    top: 265px;
+    right: 11px;
+  }
+  .box .verticle-line {
+    top: 126px;
+    height: 72px;
+  }
+  .box2 {
+    top: 434px;
+    left: 258px;
+  }
+  .box2 .horizontal-line {
+    top: 70px;
+    right: -73px;
+    width: 73px;
+  }
+}
